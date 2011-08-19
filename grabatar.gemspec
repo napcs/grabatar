@@ -8,6 +8,8 @@ Gem::Specification.new do |s|
   s.files = [
     "lib/grabatar.rb",
     "lib/grabatar/version.rb",
-    "lib/grabatar/gravatar.rb"  
+    "lib/grabatar/gravatar.rb",
+    "lib/grabatar/railtie.rb",
+    "lib/grabatar/view_helpers.rb"
   ]
 end
