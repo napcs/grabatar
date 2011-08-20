@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
     "lib/grabatar/railtie.rb",
     "lib/grabatar/view_helpers.rb"
   ]
+  s.executables = ["grabatar"]
 end

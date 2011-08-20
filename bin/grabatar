@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'grabatar'
+
+puts "Grabatar v#{Grabatar::VERSION}"
+
+email = ARGV[0]
+
+if email.nil?
+  puts "Usage: grabatar <youremail@server.com>"
+else
+  g = Grabatar::Gravatar.new(email)
+  puts g.avatar_url
+end

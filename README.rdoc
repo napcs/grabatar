@@ -1,0 +1,4 @@
+=Grabatar
+Example gem for MadisonRuby. Look at each branch to see the stages for building this gem.
+
+Talk info is at http://spkr8.com/t/8181
